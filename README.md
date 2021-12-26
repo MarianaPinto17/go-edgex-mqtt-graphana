@@ -74,10 +74,6 @@ make clean
 
 ![Backend](document_resources/backend.png)
 
-### Walkthrough Clip
-
-![demo_clip.gif](demo_clip.gif)
-
 ## Accessing the UIs
 
 ### View the status of the microservices via the Portainer web interface
