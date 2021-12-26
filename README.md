@@ -16,7 +16,7 @@ Version 2 of this document will no longer compatible with the previous version d
 ## Todo
 
 1. Integrate with Third-party API using JWT Token via EdgeX's Application Service
-2. Implement a wait mechanism for checking wheter EdgeX is usable or not before bootstrapping, instead of using magic number (currently it's 15 seconds - see `Makefile`)
+2. Implement a wait mechanism for checking whether EdgeX is usable or not before bootstrapping, instead of using magic number (currently it's 15 seconds - see `Makefile`)
 3. (LOW) Transforming sensor data using EdgeX's Application Service and Rule Engine
 
 ## Requirements not cover in this setup
@@ -64,16 +64,21 @@ make stop
 make clean
 ```
 
-## Demonstrating Video
-
-![demo_clip.gif](demo_clip.gif)
-
-## Accessing the UIs
+## Demonstrating
 
 ### View the Demo UI
 
 - `http://localhost:4321`
-![DemoUI](document_resources/2021-09-18-07-51-07.png)
+
+![DemoUI](document_resources/webui.png)
+
+![Backend](document_resources/backend.png)
+
+### Walkthrough Clip
+
+![demo_clip.gif](demo_clip.gif)
+
+## Accessing the UIs
 
 ### View the status of the microservices via the Portainer web interface
 
