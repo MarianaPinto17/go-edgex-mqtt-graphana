@@ -1,4 +1,4 @@
-.PHONY: help portainer portainer-down pull run pull-ui run-ui down-ui down clean get-token start-bootstrapper start-thirdparty logs-bootstrapper logs-thirdparty reload stop exited
+.PHONY: help portainer portainer-down pull run pull-ui run-ui down-ui down clean get-token get-consul-acl-token start-bootstrapper start-thirdparty logs-bootstrapper logs-thirdparty reload stop exited ps
 .SILENT: help get-token
 
 help:
@@ -81,7 +81,7 @@ run:
 	-make start-bootstrapper
 
 down:
-	docker-compose -p edgex -f docker-compose.yml -f docker-compose-no-secty-with-ui.yml down
+	docker-compose -p edgex -f docker-compose.yml down
 
 clean: down
 	-docker rm $$(docker ps --filter "network=edgex_edgex-network" --filter "network=edgex_default" -aq) 2> /dev/null
