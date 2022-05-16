@@ -1,1 +1,1 @@
-level=ERROR ts=2022-05-14T23:16:59.615042096Z app=secrets-config source=bootstraphandler.go:76 msg="Could not read private key from file /keys/gateway.key: open /keys/gateway.key: permission denied"
+eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJlOGRiMjIyNC1lMDkxLTRmYmEtOWNmNy1jYjJkZDQxZGUwODAiLCJleHAiOjE2NTI3MzY4NjMsIm5iZiI6MTY1MjczMzI2MywiaWF0IjoxNjUyNzMzMjYzfQ.jRzPit39bcvfsYYEVuY6as6U-cOHznmTx1Afm2bGF90mvHPEideCiQlrqidFrmAErB5-7B-f2_D3qTBhcpx5dQ
